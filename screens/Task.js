@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
+import { global } from '../styles/global'
 import React from 'react'
 
 const Task = () => {
   return (
     <View>
-      <Text>Task</Text>
+      <Text style={global.container}>Task</Text>
     </View>
   )
 }
